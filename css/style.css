@@ -1,0 +1,224 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face {
+    font-family: 'BebasNeueRegular';
+    src: url('fonts/BebasNeue-webfont.eot');
+    src: url('fonts/BebasNeue-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/BebasNeue-webfont.woff') format('woff'),
+         url('fonts/BebasNeue-webfont.ttf') format('truetype'),
+         url('fonts/BebasNeue-webfont.svg#BebasNeueRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+	margin:0px;
+	padding:0px;
+	width:100%;
+	height:100%;
+	background-color:#09C;
+}
+.container{
+	float:left;
+	width:260px;
+	border:1px solid;
+	margin: 20px;
+	margin:20px;
+	position:fixed;
+}
+.container_header{
+	width:100%;
+	background-image:url(../images/edge.png);
+	background-repeat:repeat-x;
+	background-color:#062499;
+	color:#fff;
+	background-position:center bottom;
+	font-size: 105%;
+}
+.container_header h1{
+	margin:0px;
+	font-family:BebasNeueRegular;
+	margin: 0 20px;
+    padding: 10px 0;
+}
+.container_navbar{
+	width:100%;
+	height:200px;
+	background-color:#fff;
+}
+.container_navbar ul{
+	height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.container_navbar ul li{
+	border-bottom:1px solid #f2f2f2;
+	font-family:"Times New Roman", Times, serif;
+	list-style:none;
+	font-size:16px;
+	padding: 14px 30px;
+    width: 76%;
+}
+.container_navbar ul li a{
+	text-decoration:none;
+	color:#000;
+}
+.container_navbar ul li a:hover, .container_navbar ul li a:active{
+	color:#F56D0A;
+}
+.container_footer{
+	width:100%;
+	background-color:#000;
+	background-image:url(../images/edger.png);
+	background-repeat:repeat-x;
+	background-position:center top;
+	height:70px;
+}
+#page{
+    background-color: #F2F2F2;
+    float: right;
+    margin-right: 50px;
+    margin-top: 20px;
+    width: 848px;
+	opacity:0.6;
+	
+}
+#page_header{
+	background-color:#959595;
+	width:100%;
+	height:100px;
+	
+}
+#page_body{
+	width:100%;
+}
+.body_container{
+	float:left;
+	margin:15px 0px 15px 15px;
+	width:570px;
+	padding:20px 10px 40px 20px;
+}
+h3{
+	font-size: 32px;
+    margin: 0;
+	font-family:BebasNeueRegular;
+	color:#04397B;
+}
+h4{
+	font-size:22px;
+	margin: 0;
+	font-family:BebasNeueRegular;
+	color:#3A3A3A;
+}
+#body_ads{
+	float:right;
+	width:200px;
+	background-color:#424242;
+	height:600px;
+	margin:15px;
+}
+#page_footer{
+	height:200px;
+	width:100%;
+	background-color:#2C2C2C;
+}
+.main_container{
+	min-width:1200px;
+}
+.clear{
+	clear:both;
+}
+/********* business plans page css ***********/
+.plan_container{
+	float:left;
+	margin:20px 0px;
+	width:100%;
+	border-bottom:1px dashed #535353;
+}
+.plan_image{
+	float:left;
+	width:50%;
+	height:300px;
+	border:1px solid;
+	margin:5px 0px 15px 0px;
+}
+/*********** contact us page css **************/
+
+.contact_form_outline{
+	float:left;
+	margin:15px 0px 15px 15px;
+	width:500px;
+	padding:20px 10px 40px 20px;
+}
+.contact_form{
+	margin:30px auto;
+	width:440px;
+}
+.form_part{
+	margin:12px auto;
+	width:430px;
+	padding:5px 0px;
+}
+.form_text{
+	float:left;
+	margin: 14px 0 0 45px;
+	text-align:right;
+}
+.form_textbox{
+	float:right;
+	width:250px;
+	height:25px;
+	margin: 10px 25px 0 0;
+}
+.form_textarea{
+	float:right;
+	width:250px;
+	height:120px;
+	margin: 10px 25px 0 0;
+	resize:vertical;
+}
+.form_button{
+	background-color: #0279FD;
+    border: medium none;
+    color: #FFFFFF;
+    float: right;
+    font-size: 18px;
+    margin-right: 25px;
+    padding: 9px;
+    text-align: center;
+    width: 110px;
+}
+
+.contact_details{
+	float:right;
+	width:250px;
+	height:300px;
+	margin: 45px 15px 0 5px;
+}
+.contact_details > h4{
+	font-size:22px;
+	font-family:BebasNeueRegular;
+	color:#141414;
+}
+#contact_address{
+	float:left;
+	line-height: 20px;
+    margin: 10px 28px 10px 5px;
+}
+.contact_email{
+	float:left;
+    margin: 10px 28px 0px 5px;
+	font-size:18px;
+}
+.contact_email_text{
+	font-size:14px;
+	color:#F01B0F;
+}
+/***************** Text CSS starts here***************/
+
+.black{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:15px;
+	color:black;
+	text-align:justify;
+}
