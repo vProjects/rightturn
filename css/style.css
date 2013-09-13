@@ -612,8 +612,11 @@ h3{
 h4{
 	font-size:22px;
 	margin: 10px 0px;
-	font-family:BebasNeueRegular;
-	color:#3A3A3A;
+	font-family:Verdana, Geneva, sans-serif;
+	color:#0667F9;
+}
+.plan_container h4{
+	color:#0018F9;
 }
 #body_ads{
 	float:right;
@@ -640,6 +643,7 @@ h4{
 	margin:20px 0px;
 	width:100%;
 	border-bottom:1px dashed #535353;
+	line-height:23px;
 }
 .plan_image{
 	float:left;
@@ -647,6 +651,18 @@ h4{
 	height:300px;
 	border:1px solid;
 	margin:5px 0px 15px 0px;
+}
+h5{
+	color: #3A3A3A;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin: 10px 0;
+}
+.plan_container1{
+	float:left;
+	margin:20px 0px;
+	width:100%;
+	line-height:23px;
 }
 /*********** contact us page css **************/
 
