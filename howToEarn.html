@@ -13,6 +13,7 @@
 	max-height:100%;
 	width:100%;
 	z-index:-1;
+	background-size:100% 100%;
 }
 </style>
 
@@ -94,8 +95,8 @@
 </div>
 <script type="text/javascript">
 	window.onload = function () {
-		$('#bac_fixed').hide(3000);
 		document.getElementById('bac_fixed').style.backgroundImage = "url(images/6.jpg)";
+		$('#bac_fixed').hide(3000);
 		document.getElementById('bac_fixed').style.backgroundSize = "100% 100%";
 		$('#bac_fixed').fadeIn(3000);
 
