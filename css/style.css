@@ -638,6 +638,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6db3f2', end
 }
 #page_body{
 	width:100%;
+	min-height:700px;
 }
 .body_container{
 	float:left;
@@ -817,7 +818,7 @@ h5{
 .contact_email_value{
 	
 }
-/********* login page *************/
+/********* login and signup page *************/
 #signup_page_outline{
 	background-color: #FFFFFF;
     box-shadow: 3px 3px 11px;
@@ -864,6 +865,15 @@ h5{
 .signup_form_checkbox_text{
 	float:left;
 	margin-left:10px;
+}
+#login_page_outline{
+	background-color: #FFFFFF;
+    box-shadow: 3px 3px 11px;
+    float: left;
+    height: 346px;
+    margin: 80px 68px;
+    opacity: 0.8;
+    width: 700px;
 }
 
 /***************** Text CSS starts here***************/
